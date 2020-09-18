@@ -1,9 +1,10 @@
-\<Use Case Diagram\>
+# \<Use Case Diagram\>
 
 ![Usecasediagram](https://user-images.githubusercontent.com/70693938/93596300-0c2f8a00-f9f4-11ea-95a9-e4ba7374e12f.PNG)
 
+---
 
-\<Scenario Description\>
+# \<Scenario Description\>
 
 Scenario name 임산부 배려석에 앉기
 
@@ -34,7 +35,9 @@ Flow of events 1. 비콘을 들고 있는 임산부A가 지하철 칸 안에 들
 
 8\. 임산부B는 다른 임산부 배려석으로 이동한다.
 
-\<Use Case Description\>
+---
+
+# \<Use Case Description\>
 
 Use case name 임산부 배려석에 앉기
 
@@ -68,12 +71,17 @@ Flow of events 1. 임산부A(비콘)가 임산부 배려석 (비콘 수신기)�
 
 10\. 임산부B 는 다른 배려석으로 이동한다.
 
-Entry condition 임산부(비콘)가 비콘 수신기 3m안에 접근한다.
+---
 
-Exit conditions 비콘 수신기가 비콘을 감지하고 센서를 작동시킨다.
+# Entry condition 임산부(비콘)가 비콘 수신기 3m안에 접근한다.
+---
 
-Quality 첫번째 비콘이 감지될 경우, 무게 변화가 있을 시 센서가 작동을
-멈춘다.
+# Exit conditions 비콘 수신기가 비콘을 감지하고 센서를 작동시킨다.
+---
 
-requirements 두번째 비콘이 감지될 경우, 센서는 감지 후 30초 동안만
+# Quality 첫번째 비콘이 감지될 경우, 무게 변화가 있을 시 센서가 작동을 멈춘다.
+
+---
+
+# requirements 두번째 비콘이 감지될 경우, 센서는 감지 후 30초 동안만
 작동된다.
