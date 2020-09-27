@@ -47,7 +47,7 @@
 
 1\. Beacon(임산부A) 가 임산부 배려석 (Beacon receiver)으로 간다.
 
-2\. BeaconSensorSystem은 거리 내에 도달한 Beacon한테 받은 signal을 Beacon receiver에 전달한다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2\. BeaconSensorSystem은 거리 내에 도달한 Beacon한테 받은 signal을 Beacon receiver에 전달한다.
 
 3\. Beacon receiver는 signal을 받고, 3m이내로 Beacon과 가까워지면 신호를 보낸다.
 
