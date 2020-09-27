@@ -86,7 +86,7 @@
 ---
 
 **Quality requirements** 두번째 Beacon이 감지될 경우, 센서는 감지 후 30초 동안만 작동된다<br/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Beacon receiver가 Beacon을 감지하고 센서를 작동시킨다.
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Beacon receiver가 Beacon을 감지하고 센서를 작동시킨다.
                           
 
 
