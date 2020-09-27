@@ -1,6 +1,7 @@
 # \<Use Case Diagram\>
 
-![Usecasediagram](https://user-images.githubusercontent.com/70693938/93596300-0c2f8a00-f9f4-11ea-95a9-e4ba7374e12f.PNG)
+![Usecase##2](https://user-images.githubusercontent.com/70693938/94356801-6653dd80-00cd-11eb-82f3-6e1aecc49b45.PNG)
+
 
 ---
 
@@ -8,27 +9,27 @@
 
 **Scenario name** 임산부 배려석에 앉기
 
-**Participating actor** 임산부A (비콘) ,임산부B
+**Participating actor** Beacon(임산부A,임산부B)
 
-**Instances** 비콘 수신기
+**Instances** Beacon receiver
 
 **Flow of events** 
 
-1\. 비콘을 들고 있는 임산부A가 지하철 칸 안에 들어가 임산부 배려석에 이미 일반인이 앉아있는 것을 본다.
+1\. Beacon(임산부A)가 지하철 칸 안에 들어가 임산부 배려석에 이미 일반인이 앉아있는 것을 본다.
 
-2\. 임산부A가 배려석 가까이 다가가자 배려석에 있는 비콘 수신기가 임산부가 들고 있는 비콘을 감지해 배려석에서 빛(LED)이 나며 소리가 나기시작한다.
+2\. Beacon(임산부A)가 배려석 가까이 다가가자 배려석에 있는 Beacon receiver가 감지해 배려석에서 빛(Light1)이 나며 소리(sound1)가 나기 시작한다.
 
 3\. 배려석에 앉아있던 일반인은 주위의 시선을 의식해 자리에서 일어난다.
 
-4\. 임산부A가 자리에 착석하고, 무게 감지 센서는 앞의 사람과 무게가 b달라진 걸 확인한다.
+4\. Beacon(임산부A) 가 자리에 착석하고, 무게 감지 센서는 앞의 사람과 무게가 달라진 걸 확인한다.
 
-5\. 비콘 수신기의 소리와 빛(LED)은 꺼진다.
+5\. Beacon receiver의 소리와 빛(LED)은 꺼진다.
 
-6\. 몇 분 후, 비콘을 든 임산부B가 임산부A와 같은 지하철 칸에 타고 임산부A의 좌석 앞에 서서 비콘 수신기가 이를 감지해 빛과 소리를 낸다.
+6\. 몇 분 후, Beacon(임산부B)가 나타나 Beacon(임산부A)의 좌석 앞에 서서 Beacon receiver가 이를 감지해 빛과 소리를 낸다.
 
-7\. 무게 감지 센서는 같은 무게를 측정하지만, 이미 임산부A가 착석해 있기 때문에 빛과 소리를 30초 동안만 작동시킨다.
+7\. 무게 감지 센서는 같은 무게를 측정하지만, 이미 Beacon(임산부A)가 착석해 있기 때문에 다른 소리(sound2)와 빛(Light2)을 30초동안만 작동시킨다.
 
-8\. 임산부B는 다른 임산부 배려석으로 이동한다.
+8\. Beacon(임산부B)는 다른 임산부 배려석으로 이동한다.
 
 ---
 
@@ -36,53 +37,57 @@
 
 **Use case name** 임산부 배려석에 앉기
 
-**Participating actors** 임산부 (비콘)가 접근한다.
+**Participating actors** Beacon(임산부)이 시작시킨다.
 
-                         비콘 수신기가 비콘을 감지한다.
-
-                         무게 감지 센서가 무게를 측정한다.
+                         Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다
+                       
 
 **Flow of events** 
 
-1\. 임산부A(비콘)가 임산부 배려석 (비콘 수신기)의 3m이내로
-                  접근한다.
+1\. Beacon(임산부A) 가 임산부 배려석 (Beacon receiver)으로 간다.
 
-2\. 비콘 수신기가 신호 도달 거리 내의 비콘을 감지한다.
+2\. BeaconSensorSystem은 거리 내에 도달한 Beacon한테 받은 signal을 Beacon receiver에 전달한다.
 
-3\. 비콘 수신기가 센서를 작동시켜 빛과 소리를 낸다.
+3\. Beacon receiver는 signal을 받고, 3m이내로 Beacon과 가까워지면 신호를 보낸다.
 
-4\. 임산부A(비콘)가 배려석에 앉는다.
+4\. BeaconSensorSystem은 받은 신호를 Sound Sensor와  Light Sensor에게 전달한다.
 
-5\. 무게 감지 센서가 원래의 무게와 다른 무게를 감지하고 빛과 소리의 작동을 멈춘다.
+5\. Sound Sensor는 Sound1, Light Sensor는 Light1을 동작시킨다.
 
-6\. 임산부B(비콘)이 임산부A의 앞에 선다.
+6\. Beacon(임산부A) 가 배려석에 앉는다. 
 
-7\. 비콘 수신기가 신호 도달 거리 내의 비콘을 감지한다.
+7\. Weight sensor가 그 전의 무게와 달라졌다는 것을 감지하고 신호를 보낸다.
 
-8\. 비콘 수신기가 센서를 작동시켜 아까와는 다른 빛과 소리를 낸다.
+8\. BeaconSensorSystem이 받은 신호를 Light Sensor와 Sound Sensor에게 전달한다.
 
-9\. 무게 감지 센서가 무게의 변화를 느끼지 못하더라도 비콘 수신기는 빛과
-소리를 30초간만 작동시킨다.
+9\. Light Sensor와 Sound Sensor는 동작을 중지시킨다.
 
-10\. 임산부B 는 다른 배려석으로 이동한다.
+10\. Beacon(임산부 B)는 Beacon(임산부A)의 배려석으로 다가간다.
 
----
+11\. BeaconSensorSystem은 거리 내에 도달한 Beacon(임산부B)한테 받은 signal을 Beacon receiver에 전달한다.
 
-**Entry condition** 임산부(비콘)가 비콘 수신기 3m안에 접근한다.
+12\. Beacon receiver는 signal을 받고, 3m이내로 Beacon(임산부B)와 가까워지면 신호를 보낸다.
 
----
+13\. BeaconSensorSystem은 받은 신호를 Sound Sensor와 Light Sensor와 Timer에게 전달한다.
 
-**Exit conditions** 비콘 수신기가 비콘을 감지하고 센서를 작동시킨다.
+14\. Sound Sensor는 Sound2, Light Sensor는 Light2, Timer를 동작 시킨다.
 
----
-
-**Quality** 첫번째 비콘이 감지될 경우, 무게 변화가 있을 시 센서가 작동을
-멈춘다.
+15\. Beacon(임산부B)는 다른 배려석으로 이동한다.
 
 ---
 
-**requirements** 두번째 비콘이 감지될 경우, 센서는 감지 후 30초 동안만
-작동된다.
+**Entry condition** Beacon이 Beacon receiver와 거리내에 접근한다..
+
+---
+
+**Exit conditions** 첫번째 Beacon이 감지될 경우, 무게 변화가 있을 시 센서가 작동을 멈춘다. 
+
+---
+
+**Quality requirements** 두번째 Beacon이 감지될 경우, 센서는 감지 후 30초 동안만 작동된다
+
+                         Beacon receiver가 Beacon을 감지하고 센서를 작동시킨다
+
 
 
 
