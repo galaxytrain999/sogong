@@ -47,11 +47,11 @@
 
 1\. Beacon(임산부A) 가 임산부 배려석 (Beacon receiver)으로 간다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2\. BeaconSensorSystem은 거리 내에 도달한 Beacon한테 받은 signal을 Beacon receiver에 전달한다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2\. BeaconSensorSystem은 거리 내에 도달한 Beacon한테 받은 signal을 Beacon receiver에 전달한다.
 
 3\. Beacon receiver는 signal을 받고, 3m이내로 Beacon과 가까워지면 신호를 보낸다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4\. BeaconSensorSystem은 받은 신호를 Sound Sensor와  Light Sensor에게 전달한다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4\. BeaconSensorSystem은 받은 신호를 Sound Sensor와  Light Sensor에게 전달한다.
 
 5\. Sound Sensor는 Sound1, Light Sensor는 Light1을 동작시킨다.
 
@@ -59,17 +59,17 @@
 
 7\. Weight sensor가 그 전의 무게와 달라졌다는 것을 감지하고 신호를 보낸다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8\. BeaconSensorSystem이 받은 신호를 Light Sensor와 Sound Sensor에게 전달한다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8\. BeaconSensorSystem이 받은 신호를 Light Sensor와 Sound Sensor에게 전달한다.
 
 9\. Light Sensor와 Sound Sensor는 동작을 중지시킨다.
 
 10\. Beacon(임산부 B)는 Beacon(임산부A)의 배려석으로 다가간다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11\. BeaconSensorSystem은 거리 내에 도달한 Beacon(임산부B)한테 받은 signal을 Beacon receiver에 전달한다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11\. BeaconSensorSystem은 거리 내에 도달한 Beacon(임산부B)한테 받은 signal을 Beacon receiver에 전달한다.
 
 12\. Beacon receiver는 signal을 받고, 3m이내로 Beacon(임산부B)와 가까워지면 신호를 보낸다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13\. BeaconSensorSystem은 받은 신호를 Sound Sensor와 Light Sensor와 Timer에게 전달한다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13\. BeaconSensorSystem은 받은 신호를 Sound Sensor와 Light Sensor와 Timer에게 전달한다.
 
 14\. Sound Sensor는 Sound2, Light Sensor는 Light2, Timer를 동작 시킨다.
 
