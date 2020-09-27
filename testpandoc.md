@@ -38,7 +38,7 @@
 **Use case name** 임산부 배려석에 앉기
 
 **Participating actors** Beacon(임산부)이 시작시킨다.<br/>  
-                         Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다.
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다.
 
                      
                        
