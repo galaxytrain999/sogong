@@ -39,7 +39,7 @@
 
 **Participating actors** Beacon(임산부)이 시작시킨다.
 
-                         Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다.
+                       Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다.
                        
 
 **Flow of events** 
