@@ -102,29 +102,6 @@
 
 ---                         
 
-
-**Instances** Beacon receiver
-
-**Flow of events** 
-
-1\. Beacon(임산부A)가 지하철 칸 안에 들어가 임산부 배려석에 이미 일반인이 앉아있는 것을 본다.
-
-2\. Beacon(임산부A)가 배려석 가까이 다가가자 배려석에 있는 Beacon receiver가 감지해 배려석에서 빛(Light1)이 나며 소리(sound1)가 나기 시작한다.
-
-3\. 배려석에 앉아있던 일반인은 주위의 시선을 의식해 자리에서 일어난다.
-
-4\. Beacon(임산부A) 가 자리에 착석하고, 무게 감지 센서는 앞의 사람과 무게가 달라진 걸 확인한다.
-
-5\. Beacon receiver의 소리와 빛(LED)은 꺼진다.
-
-6\. 몇 분 후, Beacon(임산부B)가 나타나 Beacon(임산부A)의 좌석 앞에 서서 Beacon receiver가 이를 감지해 빛과 소리를 낸다.
-
-7\. 무게 감지 센서는 같은 무게를 측정하지만, 이미 Beacon(임산부A)가 착석해 있기 때문에 다른 소리(sound2)와 빛(Light2)을 30초동안만 작동시킨다.
-
-8\. Beacon(임산부B)는 다른 임산부 배려석으로 이동한다.
-
----
-
 # \<Usecase Description 4 \>
 
 **Use case name**     Turn off Light
@@ -155,89 +132,36 @@
 
 ---                         
 
+# \<Scenario Description 1 \>
 
-**Instances** Beacon receiver
+**Scenario name**     일반인이 앉아있는 경우
 
-**Flow of events** 
+**Participating Sender**    BeaconSender (임산부A)
 
-1\. Beacon(임산부A)가 지하철 칸 안에 들어가 임산부 배려석에 이미 일반인이 앉아있는 것을 본다.
+**Instances** 			Beacon Receiver
 
-2\. Beacon(임산부A)가 배려석 가까이 다가가자 배려석에 있는 Beacon receiver가 감지해 배려석에서 빛(Light1)이 나며 소리(sound1)가 나기 시작한다.
-
-3\. 배려석에 앉아있던 일반인은 주위의 시선을 의식해 자리에서 일어난다.
-
-4\. Beacon(임산부A) 가 자리에 착석하고, 무게 감지 센서는 앞의 사람과 무게가 달라진 걸 확인한다.
-
-5\. Beacon receiver의 소리와 빛(LED)은 꺼진다.
-
-6\. 몇 분 후, Beacon(임산부B)가 나타나 Beacon(임산부A)의 좌석 앞에 서서 Beacon receiver가 이를 감지해 빛과 소리를 낸다.
-
-7\. 무게 감지 센서는 같은 무게를 측정하지만, 이미 Beacon(임산부A)가 착석해 있기 때문에 다른 소리(sound2)와 빛(Light2)을 30초동안만 작동시킨다.
-
-8\. Beacon(임산부B)는 다른 임산부 배려석으로 이동한다.
-
-# \<Use Case Description\>
-
-**Use case name** 임산부 배려석에 앉기
-
-**Participating actors** Beacon(임산부)이 시작시킨다.<br/>  
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다.
- 
-
-
-                     
-                       
-
-**Flow of events** 
-
-1\. Beacon(임산부A) 가 임산부 배려석 (Beacon receiver)으로 간다.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2\. BeaconSensorSystem은 거리 내에 도달한 Beacon한테 받은 signal을 Beacon receiver에 전달한다.
-
-3\. Beacon receiver는 signal을 받고, 3m이내로 Beacon과 가까워지면 신호를 보낸다.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4\. BeaconSensorSystem은 받은 신호를 Sound Sensor와  Light Sensor에게 전달한다.
-
-5\. Sound Sensor는 Sound1, Light Sensor는 Light1을 동작시킨다.
-
-6\. Beacon(임산부A) 가 배려석에 앉는다. 
-
-7\. Weight sensor가 그 전의 무게와 달라졌다는 것을 감지하고 신호를 보낸다.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8\. BeaconSensorSystem이 받은 신호를 Light Sensor와 Sound Sensor에게 전달한다.
-
-9\. Light Sensor와 Sound Sensor는 동작을 중지시킨다.
-
-10\. Beacon(임산부 B)는 Beacon(임산부A)의 배려석으로 다가간다.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11\. BeaconSensorSystem은 거리 내에 도달한 Beacon(임산부B)한테 받은 signal을 Beacon receiver에 전달한다.
-
-12\. Beacon receiver는 signal을 받고, 3m이내로 Beacon(임산부B)와 가까워지면 신호를 보낸다.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13\. BeaconSensorSystem은 받은 신호를 Sound Sensor와 Light Sensor와 Timer에게 전달한다.
-
-14\. Sound Sensor는 Sound2, Light Sensor는 Light2, Timer를 동작 시킨다.
-
-15\. Beacon(임산부B)는 다른 배려석으로 이동한다.
-
----
-
-**Entry condition** Beacon이 Beacon receiver와 거리내에 접근한다..
-
----
-
-**Exit conditions** 첫번째 Beacon이 감지될 경우, 무게 변화가 있을 시 센서가 작동을 멈춘다. 
-
----
-
-**Quality requirements** 두번째 Beacon이 감지될 경우, 센서는 감지 후 30초 동안만 작동된다<br/>
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Beacon receiver가 Beacon을 감지하고 센서를 작동시킨다.
-                          
-
+**Flow of events**  1. BeaconSender (임산부A)가 지하철 칸 안에 들어가 임산부 배려석에 이미 일반인이 앉아있는 것을 본다.
+                  2. BeaconSender (임산부A)가 배려석 가까이 다가가자 배려석에 있는 Beacon Receiver가 감지해 배려석에서  빛(Light1)이 나며 소리(sound1)가 나기 시작한다.
+                  3. 배려석에 앉아있던 일반인은 주위의 시선을 의식해 자리에서 일어난다.
+                  4. BeaconSender (임산부A) 가 자리에 착석하고, 무게 감지 센서는 앞의 사람과 무게가 달라진 걸 확인한다.
+5. Beacon Receiver의 소리와 빛(LED)은 꺼진다
 
 
 
 ---
+# \<Scenario Description 2 \>
+
+**Scenario name**     임산부가 앉아있는 경우
+
+**Participating Sender**    BeaconSender(임산부A, 임산부B)
+
+**Instances** 			Beacon Receiver
+
+**Flow of events**  1. BeaconSender (임산부B)가 나타나 BeaconSender (임산부A)의 좌석 앞에 서서 Beacon Receiver가 이를 감지해 빛과 소리를 낸다.
+                  &nbsp; &nbsp;2. 무게 감지 센서는 같은 무게를 측정하지만, 이미 BeaconSender (임산부A)가 착석해 있기 때문에 다른 소리(sound2)와 빛(Light2)을 30초동안만 작동시킨다.
+                  &nbsp; &nbsp;3. BeaconSender (임산부B)는 다른 임산부 배려석으로 이동한다
+
+
 ---
 
 
