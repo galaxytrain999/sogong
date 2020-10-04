@@ -32,7 +32,26 @@
 **Use case name**       Measure Distance
 
 **Participating Sender**    BeaconSender(임산부A,임산부B)<br/>
-                            Beacon Receiver
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Beacon Receiver
+ 
+**Flow of events** 
+
+1\. Beacon(임산부A) 가 임산부 배려석 (Beacon receiver)으로 간다.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2\. BeaconSenderSystem은 거리 내에 도달한 BeaconSender(임산부A)한테 받은 signal을 Beacon Receiver에 전달한다.
+
+3\. BeaconSender(임산부A) 은 Measure Distance를 동작을 하고, BeaconSender(임산부A) 과 Beacon Receiver사이의 거리가 3m이내로 도달하면 신호를 보낸다.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4\. BeaconSenderSystem은 신호를 Beacon Receiver에 전달한다. 
+
+**Entry condition** Beacon이 Beacon receiver와 거리내에 접근한다.
+
+**Exit conditions** BeaconSender가 Beacon Reciver에 시그널을 보낸다
+
+**Quality requirements**  Beacon Receiver가 Beacon을 감지하고 센서를 작동시킨다.
+
+
+
                          
 
 
@@ -64,6 +83,8 @@
 
 **Participating actors** Beacon(임산부)이 시작시킨다.<br/>  
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Beacon Receiver가 받아 Sound sensor, Light Sensor, Timer, weight sensor와 통신한다.
+ 
+
 
                      
                        
