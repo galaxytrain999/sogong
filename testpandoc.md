@@ -58,7 +58,7 @@
 
 **Use case name**      Send weight
 
-**Participating Sender**    Beacon Receiver<br/>
+**Participating Sender**     Beacon Receiver<br/>
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
  
@@ -110,7 +110,7 @@
 
 **Use case name**     Turn off Light
 
-**Participating Sender**    Lamp<br/>
+**Participating Sender**     Lamp<br/>
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
  
@@ -121,7 +121,7 @@
 
 2\. Weight Sensor가 무게변화를 감지하여 신호를 보낸다.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3\. BeaconReceiverSystem은 신호를 받아 Lamp에 전달해준다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3\. BeaconReceiverSystem은 신호를 받아 Lamp에 전달해준다.
 
 4.1 Light1일 때는 Turn Off Light를 동작한다.
 
