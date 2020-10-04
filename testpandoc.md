@@ -158,7 +158,9 @@
 **Instances** 			Beacon Receiver
 
 **Flow of events**  1. BeaconSender (임산부B)가 나타나 BeaconSender (임산부A)의 좌석 앞에 서서 Beacon Receiver가 이를 감지해 빛과 소리를 낸다.</br>
-                    2. 무게 감지 센서는 같은 무게를 측정하지만, 이미 BeaconSender (임산부A)가 착석해 있기 때문에 다른 소리(sound2)와 빛(Light2)을 30초동안만 작동시킨다.</br>                           3. BeaconSender (임산부B)는 다른 임산부 배려석으로 이동한다.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 무게 감지 센서는 같은 무게를 측정하지만, 이미 BeaconSender (임산부A)가 착석해 있기 때문에 다른 소리(sound2)와 빛(Light2)을 30초동안만 작동시킨다.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. BeaconSender (임산부B)는 다른 임산부 배려석으로 이동한다.</br>
                   
 
 
