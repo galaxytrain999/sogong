@@ -10,6 +10,7 @@
 # \경쟁사와의 차별 점
 
 경쟁사
+
 -임산부가 거리 내에 오면 멘트와 함께 빛이 30초동안만 남. 
 
 -임산부가 앉았는지 못 앉았는지 알 수 없음.
@@ -32,7 +33,8 @@
 **Use case name**       Measure Distance
 
 **Participating Sender**    BeaconSender(임산부A,임산부B)<br/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Beacon Receiver
+
+ &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Beacon Receiver
  
 **Flow of events** 
 
@@ -57,7 +59,8 @@
 **Use case name**      Send weight
 
 **Participating Sender**    Beacon Receiver<br/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
  
 **Flow of events** 
 
@@ -82,7 +85,8 @@
 **Use case name**      Turn On Sound2
 
 **Participating Sender**    Beacon Receiver<br/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
+
+ &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
  
 **Flow of events** 
 
@@ -107,7 +111,8 @@
 **Use case name**     Turn off Light
 
 **Participating Sender**    Lamp<br/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Weight Sensor
  
 **Flow of events** 
 
@@ -125,6 +130,7 @@
 **Entry condition** Beacon이 Beacon Receiver와 거리내에 접근한다.
 
 **Exit conditions** 첫번째 Beacon이 감지될 경우, 무게 변화가 있을 시 센서가 작동을 멈춘다. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두번째 Beacon이 감지될 경우, 센서는 감지 후 30초 동안    만 작동된다.
 
 
