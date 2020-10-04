@@ -1,3 +1,5 @@
+
+
 # \<Use Case Diagram\>
 
 ![Usecase##2](https://user-images.githubusercontent.com/70693938/94356801-6653dd80-00cd-11eb-82f3-6e1aecc49b45.PNG)
@@ -5,11 +7,34 @@
 
 ---
 
-# \<Scenario Description\>
+# \경쟁사와의 차별 점
 
-**Scenario name** 임산부 배려석에 앉기
+경쟁사
+-임산부가 거리 내에 오면 멘트와 함께 빛이 30초동안만 남. 
 
-**Participating actor** Beacon(임산부A,임산부B)
+-임산부가 앉았는지 못 앉았는지 알 수 없음.
+
+-임산부가 앉아있는 상태에서 다른 임산부가 왔을 때 반응이 없음.  
+
+
+9조
+
+-임산부가 거리내에 오면 앉아있는 사람이 일반인인지 임산부인지에 따라 효과가 다름.
+
+-무게감지를 이용해 앉아있던 사람과 임산부가 앉은 걸 구별할 수 있음. 
+
+-임산부가 앉아있는 상태에서 새로운 임산부가 오면 다른 빛과 소리를 30초동안 작동하므로 서로 알 수 있다.
+
+---
+
+# \<Usecase Description1 \>
+
+**Use case name**       Measure Distance
+
+**Participating Sender**    BeaconSender(임산부A,임산부B)<br/>
+                            Beacon Receiver
+                         
+
 
 **Instances** Beacon receiver
 
