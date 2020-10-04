@@ -131,7 +131,7 @@
 
 **Exit conditions** 첫번째 Beacon이 감지될 경우, 무게 변화가 있을 시 센서가 작동을 멈춘다. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두번째 Beacon이 감지될 경우, 센서는 감지 후 30초 동안    만 작동된다.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두번째 Beacon이 감지될 경우, 센서는 감지 후 30초 동안    만 작동된다.
 
 
 **Quality requirements**  Beacon Receiver가 Beacon을 감지하고 센서를 작동시킨다
