@@ -2,7 +2,7 @@
 
 # \<Use Case Diagram\>
 
-![Usecase##2](https://user-images.githubusercontent.com/70693938/94356801-6653dd80-00cd-11eb-82f3-6e1aecc49b45.PNG)
+![usecase##3](https://user-images.githubusercontent.com/70693938/95007550-fc4ab380-064b-11eb-9c58-ea4f78e912d3.PNG)
 
 
 ---
