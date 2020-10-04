@@ -30,10 +30,10 @@
 # \<Usecase Description1 \>
 
 **Use case name**       Measure Distance
-
+---------------------------------------------------------------------------------------------------------------------
 **Participating Sender**    BeaconSender(임산부A,임산부B)<br/>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Beacon Receiver
- 
+--------------------------------------------------------------------------------------------------------------------- 
 **Flow of events** 
 
 1\. Beacon(임산부A) 가 임산부 배려석 (Beacon receiver)으로 간다.
