@@ -1,1 +1,1 @@
-Beacon 파일을 눌러주세요!
+Beacon.md 눌러주세요!
