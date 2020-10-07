@@ -1,6 +1,6 @@
 
 
-# \<Use Case Diagram\> -담당자 : 김정욱 박지혜 
+# \<Use Case Diagram\> #   담당자 : 김정욱 박지혜  한선경
 
 
 ![usecase#4](https://user-images.githubusercontent.com/70693938/95335220-19041700-08ea-11eb-9f6d-b4322559d0a4.png)
