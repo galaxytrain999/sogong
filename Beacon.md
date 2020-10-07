@@ -1,13 +1,15 @@
 
 
-# \<Use Case Diagram\>
+# \<Use Case Diagram\> -담당자 : 김정욱 박지혜 
 
-![usecase##3](https://user-images.githubusercontent.com/70693938/95007550-fc4ab380-064b-11eb-9c58-ea4f78e912d3.PNG)
+
+![usecase#4](https://user-images.githubusercontent.com/70693938/95335220-19041700-08ea-11eb-9f6d-b4322559d0a4.png)
+
 
 
 ---
 
-# <경쟁사와의 차별 점>
+# <경쟁사와의 차별 점> 
 
 경쟁사
 
