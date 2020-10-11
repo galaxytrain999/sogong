@@ -1,6 +1,31 @@
+# \<Sequence Diagram\>   
+
+1.Send weight 담당자 : 한선경
+
+![시퀀스 sendweight](https://user-images.githubusercontent.com/70693938/95677741-92f61200-0c02-11eb-964c-30df890f6dd1.png)
 
 
-# \<Use Case Diagram\>   담당자 : 김정욱 박지혜  한선경
+2.Turn off light 담당자 : 한선경, 박지혜
+
+![시퀀스 turn off light](https://user-images.githubusercontent.com/70693938/95677742-94273f00-0c02-11eb-8500-fadf96fd0ac3.png)
+
+3.Turn on sound 담당자 : 박지혜
+
+![시퀀스 turn on sound](https://user-images.githubusercontent.com/70693938/95677744-94273f00-0c02-11eb-9038-d05470796a5d.png)
+
+# \<Class Diagram\>
+담당자 : 김정욱, 한선경
+
+![클래스](https://user-images.githubusercontent.com/70693938/95677745-94bfd580-0c02-11eb-9330-6177eeb4833d.png)
+
+# \<Obeject Diagram\>   
+담당자 : 김민희
+
+![객체](https://user-images.githubusercontent.com/70693938/95677746-94bfd580-0c02-11eb-999f-d89ced0c7328.png)
+
+---
+
+# \<Use Case Diagram\>   
 
 
 ![usecase#4](https://user-images.githubusercontent.com/70693938/95335220-19041700-08ea-11eb-9f6d-b4322559d0a4.png)
