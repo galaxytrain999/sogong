@@ -16,7 +16,8 @@
 # \<Class Diagram\>
 담당자 : 김정욱, 한선경
 
-![클래스](https://user-images.githubusercontent.com/70693938/95677745-94bfd580-0c02-11eb-9330-6177eeb4833d.png)
+![클래스2](https://user-images.githubusercontent.com/70693938/95739647-1d537a00-0cc6-11eb-8ea9-846194474a95.png)
+
 
 # \<Obeject Diagram\>   
 담당자 : 김민희
