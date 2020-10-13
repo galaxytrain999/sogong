@@ -8,7 +8,7 @@
 
 ![시퀀스 turn on sound](https://user-images.githubusercontent.com/70693938/95677744-94273f00-0c02-11eb-9038-d05470796a5d.png)
 
-3.Turn off light 담당자 : 박지혜, 
+3.Turn off light 담당자 : 박지혜, 한선경 
 
 ![2 turn off light](https://user-images.githubusercontent.com/70693938/95886307-591b3c00-0db9-11eb-9577-f3ac08eb84c9.png)
 
