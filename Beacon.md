@@ -4,14 +4,14 @@
 
 ![시퀀스 sendweight](https://user-images.githubusercontent.com/70693938/95677741-92f61200-0c02-11eb-964c-30df890f6dd1.png)
 
-
-2.Turn off light 담당자 : 한선경, 박지혜
-
-![시퀀스 turn off light](https://user-images.githubusercontent.com/70693938/95677742-94273f00-0c02-11eb-8500-fadf96fd0ac3.png)
-
-3.Turn on sound 담당자 : 박지혜
+2.Turn on sound 담당자 : 박지혜
 
 ![시퀀스 turn on sound](https://user-images.githubusercontent.com/70693938/95677744-94273f00-0c02-11eb-9038-d05470796a5d.png)
+
+3.Turn off light 담당자 : 박지혜, 
+
+![2 turn off light](https://user-images.githubusercontent.com/70693938/95886307-591b3c00-0db9-11eb-9577-f3ac08eb84c9.png)
+
 
 # \<Class Diagram\>
 담당자 : 김정욱, 한선경
