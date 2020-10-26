@@ -10,7 +10,7 @@
 
 3.Turn off light 담당자 : 박지혜, 한선경 
 
-![KakaoTalk_20201026_222406206](https://user-images.githubusercontent.com/70693938/97179707-7948f300-17dc-11eb-910d-25e11d69e580.png
+![KakaoTalk_20201026_222406206](https://user-images.githubusercontent.com/70693938/97179707-7948f300-17dc-11eb-910d-25e11d69e580.png)
 
 
 # \<Class Diagram\>
