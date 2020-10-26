@@ -2,21 +2,21 @@
 
 1.Send weight 담당자 : 한선경
 
-![시퀀스 sendweight](https://user-images.githubusercontent.com/70693938/95677741-92f61200-0c02-11eb-964c-30df890f6dd1.png)
+![KakaoTalk_20201026_222409361](https://user-images.githubusercontent.com/70693938/97179710-7948f300-17dc-11eb-9855-2042a4823d1c.png)
 
 2.Turn on sound 담당자 : 박지혜
 
-![시퀀스 turn on sound](https://user-images.githubusercontent.com/70693938/95677744-94273f00-0c02-11eb-9038-d05470796a5d.png)
+![KakaoTalk_20201026_222413381](https://user-images.githubusercontent.com/70693938/97179713-79e18980-17dc-11eb-939a-640bdb90d765.png)
 
 3.Turn off light 담당자 : 박지혜, 한선경 
 
-![2 turn off light](https://user-images.githubusercontent.com/70693938/95886307-591b3c00-0db9-11eb-9577-f3ac08eb84c9.png)
+![KakaoTalk_20201026_222406206](https://user-images.githubusercontent.com/70693938/97179707-7948f300-17dc-11eb-910d-25e11d69e580.png
 
 
 # \<Class Diagram\>
 담당자 : 김정욱, 한선경
 
-![클래스2](https://user-images.githubusercontent.com/70693938/95739647-1d537a00-0cc6-11eb-8ea9-846194474a95.png)
+![KakaoTalk_20201026_222415556](https://user-images.githubusercontent.com/70693938/97179702-7817c600-17dc-11eb-836d-892534d1833b.png)
 
 
 # \<Obeject Diagram\>   
