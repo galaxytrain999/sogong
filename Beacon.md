@@ -1,3 +1,15 @@
+# \<Component diagram\>   
+
+![컴포넌트다이어그램](https://user-images.githubusercontent.com/70693938/100416864-db8a6180-30c2-11eb-8c27-2d974f811444.png)
+
+---
+
+# \<Deployment diagram\>   
+
+![디플로이다이어그램](https://user-images.githubusercontent.com/70693938/100416861-daf1cb00-30c2-11eb-9e27-b8f1a77dd017.png)
+
+---
+
 # \<Sequence Diagram\>   
 
 1.Send weight 담당자 : 한선경
