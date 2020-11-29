@@ -18,7 +18,7 @@
 
 2.Turn on sound 담당자 : 박지혜
 
-![KakaoTalk_20201026_222413381](https://user-images.githubusercontent.com/70693938/97179713-79e18980-17dc-11eb-939a-640bdb90d765.png)
+![지혜 시퀀스](https://user-images.githubusercontent.com/70693938/100552707-1c08fb80-32cc-11eb-83e4-71f54b014757.png)
 
 3.Turn off light 담당자 : 박지혜, 한선경 
 
@@ -28,8 +28,7 @@
 # \<Class Diagram\>
 담당자 : 김정욱, 한선경
 
-![KakaoTalk_20201026_222415556](https://user-images.githubusercontent.com/70693938/97179702-7817c600-17dc-11eb-836d-892534d1833b.png)
-
+![클래스다이어그램](https://user-images.githubusercontent.com/70693938/100552706-1b706500-32cc-11eb-9432-b165695cfdc5.png)
 
 # \<Obeject Diagram\>   
 담당자 : 김민희
