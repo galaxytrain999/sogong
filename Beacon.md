@@ -1,12 +1,12 @@
 # \<Component diagram\>   
 
-![컴포넌트다이어그램](https://user-images.githubusercontent.com/70693938/100416864-db8a6180-30c2-11eb-8c27-2d974f811444.png)
+![컴포넌트](https://user-images.githubusercontent.com/70693938/101281712-ef953800-3813-11eb-96c3-d62eb87e9a06.jpg))
 
 ---
 
 # \<Deployment diagram\>   
 
-![디플로이다이어그램](https://user-images.githubusercontent.com/70693938/100416861-daf1cb00-30c2-11eb-9e27-b8f1a77dd017.png)
+![디플로이어먼트](https://user-images.githubusercontent.com/70693938/101281707-edcb7480-3813-11eb-85d9-4b77a0c41206.jpg)
 
 ---
 
@@ -14,11 +14,12 @@
 
 1.Send weight 담당자 : 한선경
 
-![KakaoTalk_20201026_222409361](https://user-images.githubusercontent.com/70693938/97179710-7948f300-17dc-11eb-9855-2042a4823d1c.png)
+![sendweight 시퀀스](https://user-images.githubusercontent.com/70693938/101281714-f02dce80-3813-11eb-8a4e-554a942d0020.jpg)
 
 2.Turn on sound 담당자 : 박지혜
 
-![지혜 시퀀스](https://user-images.githubusercontent.com/70693938/100552707-1c08fb80-32cc-11eb-83e4-71f54b014757.png)
+![turn on sound 2 시퀀스](https://user-images.githubusercontent.com/70693938/101281715-f02dce80-3813-11eb-8e4b-dc86e5309c24.jpg)
+
 
 3.Turn off light 담당자 : 박지혜, 한선경 
 
@@ -28,7 +29,7 @@
 # \<Class Diagram\>
 담당자 : 김정욱, 한선경
 
-![클래스다이어그램](https://user-images.githubusercontent.com/70693938/100552706-1b706500-32cc-11eb-9432-b165695cfdc5.png)
+![클래스](https://user-images.githubusercontent.com/70693938/101281713-ef953800-3813-11eb-88ce-4194812e13e0.jpg)
 
 # \<Obeject Diagram\>   
 담당자 : 김민희
@@ -40,8 +41,7 @@
 # \<Use Case Diagram\>   담당자 : 김정욱 ,박지혜, 한선경
 
 
-![usecase#4](https://user-images.githubusercontent.com/70693938/95335220-19041700-08ea-11eb-9f6d-b4322559d0a4.png)
-
+![유스케이스](https://user-images.githubusercontent.com/70693938/101281710-eefca180-3813-11eb-97c2-37606499d188.jpg)
 
 
 ---
