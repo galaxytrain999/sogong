@@ -1,6 +1,6 @@
 # \<Component diagram\>   
 
-![컴포넌트](https://user-images.githubusercontent.com/70693938/101281712-ef953800-3813-11eb-96c3-d62eb87e9a06.jpg))
+![컴포넌트](https://user-images.githubusercontent.com/70693938/101281712-ef953800-3813-11eb-96c3-d62eb87e9a06.jpg)
 
 ---
 
