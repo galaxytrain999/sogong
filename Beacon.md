@@ -1,10 +1,14 @@
 # \<Component diagram\>   
 
+담당자 : 김민희, 박지혜
+
 ![컴포넌트](https://user-images.githubusercontent.com/70693938/101281712-ef953800-3813-11eb-96c3-d62eb87e9a06.jpg)
 
 ---
 
 # \<Deployment diagram\>   
+
+담당자 : 김정욱 , 한선경
 
 ![디플로이어먼트](https://user-images.githubusercontent.com/70693938/101281707-edcb7480-3813-11eb-85d9-4b77a0c41206.jpg)
 
